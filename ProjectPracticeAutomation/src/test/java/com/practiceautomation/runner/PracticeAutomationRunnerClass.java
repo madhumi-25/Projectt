@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		(
 			features = "src/main/resources/Feature/TestCase.feature",
 			plugin = {"pretty", "html:reports/cucumber-html-report","json:reports/cucumber-json-report/jsonreport","com.cucumber.listener.ExtentCucumberFormatter:reports/cucumber-extent-report/extentreport.html"},
-//			tags = {"@TC_05_Checking_Mandatory_fields_in_Billing_details"},
+			tags = {"@TC_05_Checking_Mandatory_fields_in_Billing_details"},
 			glue = {"com.practiceautomation.stepdefinition"},
 			monochrome = true
 		)
